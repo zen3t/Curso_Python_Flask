@@ -9,4 +9,5 @@ dependencies = [
     "gunicorn>=23.0.0",
     "ipdb>=0.13.13",
     "ipython>=9.5.0",
+    "setuptools>=80.9.0",
 ]
