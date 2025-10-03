@@ -32,7 +32,6 @@ jobs:
     - name: Install dependencies
       run: make install
     - name: Run Tests
-      run: |
-       make test
-       env:
-           DEBUG:True
+      env:
+        DEBUG: True
+      run: make test
