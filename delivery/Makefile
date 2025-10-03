@@ -12,7 +12,8 @@ clean:
 	uv pip install -e .[dev] --upgrade --no-cache
 
 install:
-	uv pip install -e .['dev']
+
+	uv pip install -e ".[dev]"
 
 
 test:

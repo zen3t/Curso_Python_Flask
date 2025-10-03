@@ -1,4 +1,5 @@
 black
+uv
 flake8
 flask-debugtoolbar
 flask-shell-ipython
